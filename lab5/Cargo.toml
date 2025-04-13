@@ -1,0 +1,11 @@
+[package]
+name = "rsa_cryptosystem"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gtk = "0.16.0"
+num-bigint = { version = "0.4.3", features = ["rand"] }
+num-traits = "0.2.15"
+num-integer = "0.1.45"
+rand = "0.8.5"
