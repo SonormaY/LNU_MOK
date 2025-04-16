@@ -3,7 +3,7 @@ use std::io::{Write};
 use std::path::Path;
 use gtk::prelude::*;
 use gtk::{Application, ApplicationWindow, Button, Entry, Label, Box, Orientation, FileChooserDialog, FileChooserAction, MessageDialog, MessageType};
-use gtk::traits::SettingsExt;
+use gtk::traits::GtkSettingsExt;
 use num_bigint::{BigUint, RandBigInt};
 use num_traits::{One, Zero};
 use num_integer::Integer;
